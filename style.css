@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap');
+
+*
+{
+	font-family: 'Noto Sans JP', sans-serif;
+	user-select: none;
+}
+
+.CENTERED
+{
+	display: block;
+	position: fixed;
+	left: 50%; top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.symbol
+{
+	display: block;
+	cursor: pointer;
+	font-size: 72px;
+	font-weight: 900;
+}
+.symbol_trans
+{
+	display: block;
+	font-size: 24px;
+	font-weight: 0;
+	cursor: pointer;
+}
